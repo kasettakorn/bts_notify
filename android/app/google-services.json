@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "465402517501",
+    "project_id": "bts-alert-28602",
+    "storage_bucket": "bts-alert-28602.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465402517501:android:db77763ed5f0b5f28e2b94",
+        "android_client_info": {
+          "package_name": "com.example.bts_alert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465402517501-7cf2tuou9blf547dtnpgv7um3uqoj5s3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOyU98VZKSikQzMjtfXYLtF2GLAFlgYRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465402517501-7cf2tuou9blf547dtnpgv7um3uqoj5s3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "465402517501-n0d0cr2s7m3ceavtn2a573a5e3lij83p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.btsAlert"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
