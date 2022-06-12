@@ -1,3 +1,4 @@
+import 'package:bts_alert/widgets/speech.dart';
 import 'package:flutter/material.dart';
 import 'package:bts_alert/repo/repository.dart';
 import 'package:bts_alert/utils/iconly/iconly_bold.dart';
@@ -17,7 +18,7 @@ class BottomNav extends StatefulWidget {
 class _BottomNavState extends State<BottomNav> {
   int _selectedIndex = 0;
   static final List<Widget> _widgetOptions = <Widget>[
-    const Home(),
+    const SpeechSampleApp() /*Home()*/,
     const Profile(),
   ];
 

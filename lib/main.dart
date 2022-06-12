@@ -12,7 +12,7 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   // make sure you call `initializeApp` before using other Firebase services.
   await Firebase.initializeApp();
 
-  debugPrint("Handling a background message: ${message.messageId}");
+  print("Handling a background message: ${message.messageId}");
 }
 
 void main() async {
@@ -23,15 +23,7 @@ void main() async {
 
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
 
-  FirebaseMessaging.onMessage.listen((RemoteMessage message) {
-    debugPrint('Got a message whilst in the foreground!');
-    debugPrint('Message data: ${message.data}');
-
-    if (message.notification != null) {
-      debugPrint(
-          'Message also contained a notification: ${message.notification}');
-    }
-  });
+  FirebaseMessaging.onMessage.listen((RemoteMessage message) {});
   runApp(const MyApp());
 }
 
